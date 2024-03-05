@@ -1,0 +1,1003 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Admin\Desktop\MCUCODE\1st\1.17LCD\1.17.7lcd12864\lcd12864.uvproj
+Project File Date:  03/03/2024
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling 12864.c...
+12864.C(60): error C202: 'DB': undefined identifier
+12864.C(73): error C202: 'DB': undefined identifier
+12864.C(78): error C202: 'DB': undefined identifier
+compiling main.c...
+MAIN.C(18): warning C206: 'lcd12864_write_command': missing function-prototype
+MAIN.C(18): error C267: 'lcd12864_write_command': requires ANSI-style prototype
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling 12864.c...
+12864.C(60): error C202: 'DB': undefined identifier
+12864.C(73): error C202: 'DB': undefined identifier
+12864.C(78): error C202: 'DB': undefined identifier
+compiling main.c...
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling 12864.c...
+12864.C(51): error C202: 'lcd12864_DB': undefined identifier
+compiling main.c...
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling 12864.c...
+12864.C(84): warning C206: 'Is_busy': missing function-prototype
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD12864_READ_DATA?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD12864_WRITE_DATA?12864
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  IS_BUSY
+    MODULE:  12864.obj (12864)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  IS_BUSY
+    MODULE:  12864.obj (12864)
+    ADDRESS: 01E4H
+Program Size: data=46.0 xdata=0 code=580
+creating hex file from "lcd12864"...
+"lcd12864" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling 12864.c...
+12864.C(84): warning C206: 'Is_busy': missing function-prototype
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD12864_READ_DATA?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD12864_WRITE_DATA?12864
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  IS_BUSY
+    MODULE:  12864.obj (12864)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  IS_BUSY
+    MODULE:  12864.obj (12864)
+    ADDRESS: 01E4H
+Program Size: data=46.0 xdata=0 code=580
+creating hex file from "lcd12864"...
+"lcd12864" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling 12864.c...
+12864.C(84): warning C206: 'Is_busy': missing function-prototype
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD12864_READ_DATA?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD12864_WRITE_DATA?12864
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  IS_BUSY
+    MODULE:  12864.obj (12864)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  IS_BUSY
+    MODULE:  12864.obj (12864)
+    ADDRESS: 01E4H
+Program Size: data=46.0 xdata=0 code=580
+creating hex file from "lcd12864"...
+"lcd12864" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling 12864.c...
+12864.C(84): warning C206: 'Is_busy': missing function-prototype
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD12864_READ_DATA?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD12864_WRITE_DATA?12864
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  IS_BUSY
+    MODULE:  12864.obj (12864)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  IS_BUSY
+    MODULE:  12864.obj (12864)
+    ADDRESS: 01E4H
+Program Size: data=46.0 xdata=0 code=580
+creating hex file from "lcd12864"...
+"lcd12864" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling 12864.c...
+12864.C(84): warning C206: 'Is_busy': missing function-prototype
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD12864_READ_DATA?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD12864_WRITE_DATA?12864
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  IS_BUSY
+    MODULE:  12864.obj (12864)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  IS_BUSY
+    MODULE:  12864.obj (12864)
+    ADDRESS: 01E4H
+Program Size: data=46.0 xdata=0 code=580
+creating hex file from "lcd12864"...
+"lcd12864" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling 12864.c...
+12864.C(71): warning C206: 'Isbusy': missing function-prototype
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD12864_READ_DATA?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD12864_WRITE_DATA?12864
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  ISBUSY
+    MODULE:  12864.obj (12864)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ISBUSY
+    MODULE:  12864.obj (12864)
+    ADDRESS: 01F7H
+Program Size: data=45.0 xdata=0 code=579
+creating hex file from "lcd12864"...
+"lcd12864" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling 12864.c...
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD12864_READ_DATA?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD12864_WRITE_DATA?12864
+Program Size: data=45.0 xdata=0 code=579
+creating hex file from "lcd12864"...
+"lcd12864" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling 12864.c...
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD12864_READ_DATA?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD12864_WRITE_DATA?12864
+Program Size: data=45.0 xdata=0 code=579
+creating hex file from "lcd12864"...
+"lcd12864" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling 12864.c...
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD12864_READ_DATA?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD12864_INIT?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD12864_SHOW_STR?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD12864_SHOW_STRING?12864
+Program Size: data=12.0 xdata=0 code=301
+creating hex file from "lcd12864"...
+"lcd12864" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling 12864.c...
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD12864_READ_DATA?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD12864_SHOW_STR?12864
+Program Size: data=12.0 xdata=0 code=321
+creating hex file from "lcd12864"...
+"lcd12864" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling 12864.c...
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD12864_READ_DATA?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD12864_SHOW_STR?12864
+Program Size: data=12.0 xdata=0 code=318
+creating hex file from "lcd12864"...
+"lcd12864" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling 12864.c...
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD12864_READ_DATA?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD12864_SHOW_STR?12864
+Program Size: data=12.0 xdata=0 code=315
+creating hex file from "lcd12864"...
+"lcd12864" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling 12864.c...
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD12864_READ_DATA?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD12864_SHOW_STR?12864
+Program Size: data=12.0 xdata=0 code=413
+creating hex file from "lcd12864"...
+"lcd12864" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling 12864.c...
+compiling main.c...
+MAIN.C(24): error C141: syntax error near 'void'
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling 12864.c...
+compiling main.c...
+MAIN.C(24): error C141: syntax error near 'void'
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling 12864.c...
+compiling main.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  DELAY50MS
+    MODULE:  main.obj (MAIN)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD12864_READ_DATA?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD12864_INIT?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD12864_SHOW_STR?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD12864_SHOW_STRING?12864
+Program Size: data=12.0 xdata=0 code=325
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling 12864.c...
+compiling main.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  DELAY50MS
+    MODULE:  main.obj (MAIN)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD12864_READ_DATA?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD12864_INIT?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD12864_SHOW_STR?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD12864_SHOW_STRING?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DELAY50MS?MAIN
+Program Size: data=12.0 xdata=0 code=322
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling 12864.c...
+compiling main.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  DELAY50MS
+    MODULE:  main.obj (MAIN)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD12864_READ_DATA?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD12864_INIT?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD12864_SHOW_STR?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD12864_SHOW_STRING?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DELAY50MS?MAIN
+Program Size: data=12.0 xdata=0 code=322
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling 12864.c...
+compiling main.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  DELAY50MS
+    MODULE:  main.obj (MAIN)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD12864_READ_DATA?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD12864_INIT?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD12864_SHOW_STR?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD12864_SHOW_STRING?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DELAY50MS?MAIN
+Program Size: data=9.0 xdata=3 code=363
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling 12864.c...
+compiling main.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  DELAY50MS
+    MODULE:  main.obj (MAIN)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD12864_READ_DATA?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD12864_INIT?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD12864_SHOW_STR?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD12864_SHOW_STRING?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DELAY50MS?MAIN
+Program Size: data=9.0 xdata=3 code=361
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling 12864.c...
+compiling main.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  DELAY50MS
+    MODULE:  main.obj (MAIN)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD12864_READ_DATA?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CLEAR_SCREEN?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD12864_INIT?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD12864_SHOW_STR?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD12864_SHOW_STRING?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DELAY50MS?MAIN
+Program Size: data=9.0 xdata=3 code=360
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling 12864.c...
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD12864_READ_DATA?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CLEAR_SCREEN?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD12864_INIT?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD12864_SHOW_STR?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD12864_SHOW_STRING?12864
+Program Size: data=9.0 xdata=3 code=351
+creating hex file from "lcd12864"...
+"lcd12864" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling 12864.c...
+compiling main.c...
+MAIN.C(26): error C141: syntax error near '{'
+MAIN.C(27): error C136: 'a': 'void' on variable
+MAIN.C(27): error C136: 'b': 'void' on variable
+MAIN.C(28): error C186: invalid dereference
+MAIN.C(29): error C186: invalid dereference
+MAIN.C(31): error C231: 'clear_screen': redefinition
+MAIN.C(32): error C231: 'delay50ms': redefinition
+MAIN.C(34): error C141: syntax error near 'while'
+MAIN.C(34): error C141: syntax error near '1'
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling 12864.c...
+compiling main.c...
+MAIN.C(26): error C141: syntax error near '{'
+MAIN.C(27): error C136: 'a': 'void' on variable
+MAIN.C(27): error C136: 'b': 'void' on variable
+MAIN.C(28): error C186: invalid dereference
+MAIN.C(29): error C186: invalid dereference
+MAIN.C(31): error C231: 'clear_screen': redefinition
+MAIN.C(32): error C231: 'delay50ms': redefinition
+MAIN.C(34): error C141: syntax error near 'while'
+MAIN.C(34): error C141: syntax error near '1'
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling 12864.c...
+compiling main.c...
+MAIN.C(27): warning C206: 'delay50ms': missing function-prototype
+MAIN.C(34): error C231: 'delay50ms': redefinition
+MAIN.C(38): error C231: 'delay50ms': redefinition
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling 12864.c...
+compiling main.c...
+MAIN.C(25): error C141: syntax error near '{'
+MAIN.C(26): error C136: 'a': 'void' on variable
+MAIN.C(26): error C136: 'b': 'void' on variable
+MAIN.C(27): error C186: invalid dereference
+MAIN.C(28): error C186: invalid dereference
+MAIN.C(31): error C231: 'clear_screen': redefinition
+MAIN.C(32): error C231: 'Mydelay50ms': redefinition
+MAIN.C(34): error C141: syntax error near 'while'
+MAIN.C(34): error C141: syntax error near '1'
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling 12864.c...
+compiling main.c...
+MAIN.C(25): error C141: syntax error near '{'
+MAIN.C(26): error C136: 'a': 'void' on variable
+MAIN.C(26): error C136: 'b': 'void' on variable
+MAIN.C(27): error C186: invalid dereference
+MAIN.C(28): error C186: invalid dereference
+MAIN.C(29): error C141: syntax error near ';'
+MAIN.C(31): error C231: 'clear_screen': redefinition
+MAIN.C(32): error C231: 'Mydelay50ms': redefinition
+MAIN.C(33): error C141: syntax error near 'while'
+MAIN.C(33): error C141: syntax error near '1'
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling 12864.c...
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD12864_READ_DATA?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD12864_INIT?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD12864_SHOW_STR?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD12864_SHOW_STRING?12864
+Program Size: data=9.0 xdata=3 code=366
+creating hex file from "lcd12864"...
+"lcd12864" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling 12864.c...
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD12864_READ_DATA?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD12864_INIT?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD12864_SHOW_STR?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD12864_SHOW_STRING?12864
+Program Size: data=9.0 xdata=3 code=366
+creating hex file from "lcd12864"...
+"lcd12864" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling 12864.c...
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD12864_READ_DATA?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD12864_INIT?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD12864_SHOW_STR?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD12864_SHOW_STRING?12864
+Program Size: data=9.0 xdata=3 code=371
+creating hex file from "lcd12864"...
+"lcd12864" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling 12864.c...
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD12864_READ_DATA?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CLEAR_SCREEN?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD12864_SHOW_STR?12864
+Program Size: data=9.0 xdata=3 code=479
+creating hex file from "lcd12864"...
+"lcd12864" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling 12864.c...
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD12864_READ_DATA?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CLEAR_SCREEN?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD12864_SHOW_STR?12864
+Program Size: data=9.0 xdata=3 code=465
+creating hex file from "lcd12864"...
+"lcd12864" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling 12864.c...
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD12864_READ_DATA?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CLEAR_SCREEN?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD12864_SHOW_STR?12864
+Program Size: data=9.0 xdata=3 code=479
+creating hex file from "lcd12864"...
+"lcd12864" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling 12864.c...
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD12864_READ_DATA?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CLEAR_SCREEN?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD12864_SHOW_STR?12864
+Program Size: data=9.0 xdata=3 code=479
+creating hex file from "lcd12864"...
+"lcd12864" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling 12864.c...
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD12864_READ_DATA?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CLEAR_SCREEN?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD12864_SHOW_STR?12864
+Program Size: data=9.0 xdata=3 code=479
+creating hex file from "lcd12864"...
+"lcd12864" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling 12864.c...
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD12864_READ_DATA?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CLEAR_SCREEN?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD12864_SHOW_STR?12864
+Program Size: data=9.0 xdata=3 code=479
+creating hex file from "lcd12864"...
+"lcd12864" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling 12864.c...
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD12864_READ_DATA?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CLEAR_SCREEN?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD12864_SHOW_STR?12864
+Program Size: data=9.0 xdata=3 code=479
+creating hex file from "lcd12864"...
+"lcd12864" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling 12864.c...
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD12864_READ_DATA?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CLEAR_SCREEN?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD12864_SHOW_STR?12864
+Program Size: data=9.0 xdata=3 code=479
+creating hex file from "lcd12864"...
+"lcd12864" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling 12864.c...
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD12864_READ_DATA?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CLEAR_SCREEN?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD12864_SHOW_STR?12864
+Program Size: data=9.0 xdata=3 code=469
+creating hex file from "lcd12864"...
+"lcd12864" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling 12864.c...
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD12864_READ_DATA?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CLEAR_SCREEN?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD12864_SHOW_STR?12864
+Program Size: data=9.0 xdata=3 code=479
+creating hex file from "lcd12864"...
+"lcd12864" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling 12864.c...
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD12864_READ_DATA?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CLEAR_SCREEN?12864
+Program Size: data=9.0 xdata=3 code=471
+creating hex file from "lcd12864"...
+"lcd12864" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling 12864.c...
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD12864_READ_DATA?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CLEAR_SCREEN?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SHOW_ZIFU_HANZI?MAIN
+Program Size: data=9.0 xdata=3 code=471
+creating hex file from "lcd12864"...
+"lcd12864" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling 12864.c...
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD12864_READ_DATA?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CLEAR_SCREEN?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SHOW_ZIFU_HANZI?MAIN
+Program Size: data=9.0 xdata=3 code=471
+creating hex file from "lcd12864"...
+"lcd12864" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling 12864.c...
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD12864_READ_DATA?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CLEAR_SCREEN?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SHOW_ZIFU_HANZI?MAIN
+Program Size: data=9.0 xdata=3 code=471
+creating hex file from "lcd12864"...
+"lcd12864" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling 12864.c...
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD12864_READ_DATA?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CLEAR_SCREEN?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SHOW_ZIFU_HANZI?MAIN
+Program Size: data=9.0 xdata=3 code=546
+creating hex file from "lcd12864"...
+"lcd12864" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling 12864.c...
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD12864_READ_DATA?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CLEAR_SCREEN?12864
+Program Size: data=9.0 xdata=3 code=474
+creating hex file from "lcd12864"...
+"lcd12864" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling 12864.c...
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD12864_READ_DATA?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CLEAR_SCREEN?12864
+Program Size: data=9.0 xdata=3 code=473
+creating hex file from "lcd12864"...
+"lcd12864" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling 12864.c...
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD12864_READ_DATA?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CLEAR_SCREEN?12864
+Program Size: data=9.0 xdata=3 code=473
+creating hex file from "lcd12864"...
+"lcd12864" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling 12864.c...
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD12864_READ_DATA?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CLEAR_SCREEN?12864
+Program Size: data=9.0 xdata=3 code=473
+creating hex file from "lcd12864"...
+"lcd12864" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling 12864.c...
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD12864_READ_DATA?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CLEAR_SCREEN?12864
+Program Size: data=9.0 xdata=3 code=474
+creating hex file from "lcd12864"...
+"lcd12864" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling 12864.c...
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD12864_READ_DATA?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CLEAR_SCREEN?12864
+Program Size: data=9.0 xdata=3 code=474
+creating hex file from "lcd12864"...
+"lcd12864" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling 12864.c...
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD12864_READ_DATA?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CLEAR_SCREEN?12864
+Program Size: data=9.0 xdata=3 code=474
+creating hex file from "lcd12864"...
+"lcd12864" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling 12864.c...
+compiling main.c...
+MAIN.C(15): error C141: syntax error near 'void'
+MAIN.C(16): error C141: syntax error near '{'
+MAIN.C(18): error C141: syntax error near 'for'
+MAIN.C(18): error C141: syntax error near '=', expected ')'
+MAIN.C(18): error C129: missing ';' before '>'
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling 12864.c...
+compiling main.c...
+MAIN.C(15): error C141: syntax error near 'void'
+MAIN.C(16): error C141: syntax error near '{'
+MAIN.C(18): error C141: syntax error near 'for'
+MAIN.C(18): error C141: syntax error near '=', expected ')'
+MAIN.C(18): error C129: missing ';' before '>'
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(15): error C141: syntax error near 'void'
+MAIN.C(16): error C141: syntax error near '{'
+MAIN.C(18): error C141: syntax error near 'for'
+MAIN.C(18): error C141: syntax error near '=', expected ')'
+MAIN.C(18): error C129: missing ';' before '>'
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling 12864.c...
+compiling main.c...
+MAIN.C(15): error C141: syntax error near 'void'
+MAIN.C(16): error C141: syntax error near '{'
+MAIN.C(18): error C141: syntax error near 'for'
+MAIN.C(18): error C141: syntax error near '=', expected ')'
+MAIN.C(18): error C129: missing ';' before '>'
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling 12864.c...
+compiling main.c...
+MAIN.C(15): error C141: syntax error near 'void'
+MAIN.C(16): error C141: syntax error near '{'
+MAIN.C(24): error C141: syntax error near '{'
+MAIN.C(25): error C231: '_lcd12864_write_command': redefinition
+MAIN.C(26): error C231: 'delay1s': redefinition
+MAIN.C(27): error C231: 'lcd12864_init': redefinition
+MAIN.C(28): error C141: syntax error near '2'
+MAIN.C(28): error C231: '_lcd12864_show_string': redefinition
+MAIN.C(29): error C141: syntax error near '3'
+MAIN.C(29): error C231: '_lcd12864_show_string': redefinition
+MAIN.C(30): error C141: syntax error near '4'
+MAIN.C(30): error C231: '_lcd12864_show_string': redefinition
+MAIN.C(31): error C141: syntax error near '0'
+MAIN.C(31): error C231: '_lcd12864_show_str': redefinition
+MAIN.C(32): error C141: syntax error near '2'
+MAIN.C(32): error C231: '_lcd12864_show_string': redefinition
+MAIN.C(33): error C141: syntax error near '7'
+MAIN.C(33): error C231: '_lcd12864_show_str': redefinition
+MAIN.C(34): error C141: syntax error near '}'
+MAIN.C(41): error C202: 'unsignec': undefined identifier
+MAIN.C(41): error C141: syntax error near 'char'
+MAIN.C(42): error C202: 'i': undefined identifier
+MAIN.C(43): error C202: 'i': undefined identifier
+MAIN.C(45): error C202: 'j': undefined identifier
+MAIN.C(50): error C202: 'i': undefined identifier
+MAIN.C(51): error C202: 'i': undefined identifier
+MAIN.C(53): error C202: 'j': undefined identifier
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling 12864.c...
+compiling main.c...
+MAIN.C(15): error C141: syntax error near 'void'
+MAIN.C(16): error C141: syntax error near '{'
+MAIN.C(24): error C141: syntax error near '{'
+MAIN.C(25): error C231: '_lcd12864_write_command': redefinition
+MAIN.C(26): error C231: 'delay1s': redefinition
+MAIN.C(27): error C231: 'lcd12864_init': redefinition
+MAIN.C(28): error C141: syntax error near '2'
+MAIN.C(28): error C231: '_lcd12864_show_string': redefinition
+MAIN.C(29): error C141: syntax error near '3'
+MAIN.C(29): error C231: '_lcd12864_show_string': redefinition
+MAIN.C(30): error C141: syntax error near '4'
+MAIN.C(30): error C231: '_lcd12864_show_string': redefinition
+MAIN.C(31): error C141: syntax error near '0'
+MAIN.C(31): error C231: '_lcd12864_show_str': redefinition
+MAIN.C(32): error C141: syntax error near '2'
+MAIN.C(32): error C231: '_lcd12864_show_string': redefinition
+MAIN.C(33): error C141: syntax error near '7'
+MAIN.C(33): error C231: '_lcd12864_show_str': redefinition
+MAIN.C(34): error C141: syntax error near '}'
+MAIN.C(41): error C141: syntax error near 'unsigned'
+MAIN.C(41): error C202: 'i': undefined identifier
+MAIN.C(42): error C202: 'i': undefined identifier
+MAIN.C(43): error C202: 'i': undefined identifier
+MAIN.C(45): error C202: 'j': undefined identifier
+MAIN.C(50): error C202: 'i': undefined identifier
+MAIN.C(51): error C202: 'i': undefined identifier
+MAIN.C(53): error C202: 'j': undefined identifier
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling 12864.c...
+compiling main.c...
+MAIN.C(15): error C141: syntax error near 'void'
+MAIN.C(16): error C141: syntax error near '{'
+MAIN.C(18): error C141: syntax error near 'for'
+MAIN.C(18): error C141: syntax error near '=', expected ')'
+MAIN.C(18): error C129: missing ';' before '>'
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling 12864.c...
+compiling main.c...
+MAIN.C(15): error C141: syntax error near 'void'
+MAIN.C(16): error C141: syntax error near '{'
+MAIN.C(18): error C141: syntax error near 'for'
+MAIN.C(18): error C141: syntax error near '=', expected ')'
+MAIN.C(18): error C129: missing ';' before '>'
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling 12864.c...
+compiling main.c...
+MAIN.C(22): error C141: syntax error near ';'
+MAIN.C(34): error C141: syntax error near ';'
+MAIN.C(41): error C141: syntax error near 'unsigned'
+MAIN.C(41): error C202: 'i': undefined identifier
+MAIN.C(42): error C202: 'i': undefined identifier
+MAIN.C(43): error C202: 'i': undefined identifier
+MAIN.C(45): error C202: 'j': undefined identifier
+MAIN.C(50): error C202: 'i': undefined identifier
+MAIN.C(51): error C202: 'i': undefined identifier
+MAIN.C(53): error C202: 'j': undefined identifier
+MAIN.C(62): error C141: syntax error near ';'
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling 12864.c...
+compiling main.c...
+MAIN.C(41): error C141: syntax error near 'unsigned'
+MAIN.C(41): error C202: 'i': undefined identifier
+MAIN.C(42): error C202: 'i': undefined identifier
+MAIN.C(43): error C202: 'i': undefined identifier
+MAIN.C(45): error C202: 'j': undefined identifier
+MAIN.C(50): error C202: 'i': undefined identifier
+MAIN.C(51): error C202: 'i': undefined identifier
+MAIN.C(53): error C202: 'j': undefined identifier
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling 12864.c...
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD12864_READ_DATA?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CLEAR_SCREEN?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SHOW_ZIFU_HANZI?MAIN
+Program Size: data=9.0 xdata=8 code=1560
+creating hex file from "lcd12864"...
+"lcd12864" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling 12864.c...
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD12864_READ_DATA?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CLEAR_SCREEN?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SHOW_ZIFU_HANZI?MAIN
+Program Size: data=9.0 xdata=8 code=1688
+creating hex file from "lcd12864"...
+"lcd12864" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling 12864.c...
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD12864_READ_DATA?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CLEAR_SCREEN?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SHOW_ZIFU_HANZI?MAIN
+Program Size: data=9.0 xdata=8 code=1688
+creating hex file from "lcd12864"...
+"lcd12864" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling 12864.c...
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD12864_READ_DATA?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CLEAR_SCREEN?12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SHOW_ZIFU_HANZI?MAIN
+Program Size: data=9.0 xdata=8 code=1688
+creating hex file from "lcd12864"...
+"lcd12864" - 0 Error(s), 3 Warning(s).

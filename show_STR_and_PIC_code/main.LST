@@ -1,0 +1,97 @@
+C51 COMPILER V9.01   MAIN                                                                  03/05/2024 02:40:42 PAGE 1   
+
+
+C51 COMPILER V9.01, COMPILATION OF MODULE MAIN
+OBJECT MODULE PLACED IN main.OBJ
+COMPILER INVOKED BY: D:\MyProgrammeSetUp\KEILC51\C51\BIN\C51.EXE main.c LARGE BROWSE DEBUG OBJECTEXTEND
+
+line level    source
+
+   1          #include"12864.h"
+   2          #include<intrins.h>
+   3          #include"tupian.h"
+   4          
+   5          /*
+   6          NOTE:
+   7          1.液晶显示模块是128×64 点阵的汉字图形型液晶显示模块，
+   8          可显示汉字及图形，内置国标GB2312 码简体中文字库（16X16 点阵）、128 个字符（8X16 点阵）及64X256 点阵显示RAM
+             -（GDRAM）。
+   9          可与CPU 直接接口，提供两种界面来连接微处理机：8-位并行及串行两种连接方式。具有多种功能：光标显示、画面移位
+             -、睡眠模式等。
+  10          
+  11          2.ST7920的字符显示RAM (DDRAM)最多可以控制16字元*4行，LCD的显示范围为16字元*2行。
+  12          
+  13          */
+  14          
+  15          void delay1s(void)   //误差 0us
+  16          {
+  17   1          unsigned char a,b,c;
+  18   1          for(c=46;c>0;c--)
+  19   1              for(b=152;b>0;b--)
+  20   1                  for(a=70;a>0;a--);
+  21   1          _nop_();  //if Keil,require use intrins.h    
+  22   1      }
+  23          
+  24          void show_zifu_hanzi(){
+  25   1      lcd12864_write_command(0x30);
+  26   1      delay1s();
+  27   1      lcd12864_init();
+  28   1      lcd12864_show_string(2,0,"lcd 12864");
+  29   1      lcd12864_show_string(3,1,"周2");
+  30   1      lcd12864_show_string(4,2,"の晚上");
+  31   1      lcd12864_show_str(0,3,0x03);//注意，显示半宽字符是用str
+  32   1      lcd12864_show_string(2,3,"19点13分");
+  33   1      lcd12864_show_str(7,3,0x03);    
+  34   1      }
+  35          
+  36          void show_picture(unsigned char *tupian){
+  37   1              unsigned char i,j;
+  38   1              lcd12864_init();        
+  39   1      
+  40   1              lcd12864_write_command(0x34);//图片指令属于是扩展指令集
+  41   1              
+  42   1              for(i = 0;i < 32;++i){   //显示的是上半屏
+  43   2                      lcd12864_write_command(0x80+i);//这个控制的是行,行数是不会加1的
+  44   2                      lcd12864_write_command(0x80);//这个控制的是列，列数是自动加1
+  45   2                      for(j = 0;j < 16;++j){
+  46   3                      lcd12864_write_data(*tupian++); 
+  47   3                      }               
+  48   2              }
+  49   1      
+  50   1              for(i = 0;i < 32;++i){   //显示的是下半屏
+  51   2                      lcd12864_write_command(0x80+i);//这个控制的是行,行数是不会加1的
+  52   2                      lcd12864_write_command(0x88);//这个控制的是列，列数是自动加1
+  53   2                      for(j = 0;j < 16;++j){
+C51 COMPILER V9.01   MAIN                                                                  03/05/2024 02:40:42 PAGE 2   
+
+  54   3                      lcd12864_write_data(*tupian++); 
+  55   3                      }               
+  56   2              }
+  57   1              
+  58   1              lcd12864_write_command(0x36);//开启绘图功能
+  59   1              lcd12864_write_command(0x30);//回到基本指令集
+  60   1      
+  61   1                      
+  62   1      }
+  63          void main(){
+  64   1              //show_zifu_hanzi();
+  65   1      
+  66   1              show_picture(picture);
+  67   1              while(1);
+  68   1      }
+  69          
+  70          
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    285    ----
+   CONSTANT SIZE    =   1054    ----
+   XDATA SIZE       =   ----       5
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

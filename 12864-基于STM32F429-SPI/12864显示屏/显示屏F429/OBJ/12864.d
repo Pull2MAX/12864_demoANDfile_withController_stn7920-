@@ -1,0 +1,13 @@
+..\obj\12864.o: ..\HARDWARE\12864\12864.c
+..\obj\12864.o: ..\HARDWARE\12864\12864.h
+..\obj\12864.o: ..\SYSTEM\sys\sys.h
+..\obj\12864.o: ..\SYSTEM\sys\stm32f4xx.h
+..\obj\12864.o: ..\SYSTEM\sys\stm32f429xx.h
+..\obj\12864.o: ..\SYSTEM\sys\core_cm4.h
+..\obj\12864.o: D:\program\KEIL5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\12864.o: ..\SYSTEM\sys\core_cmInstr.h
+..\obj\12864.o: ..\SYSTEM\sys\cmsis_armcc.h
+..\obj\12864.o: ..\SYSTEM\sys\core_cmFunc.h
+..\obj\12864.o: ..\SYSTEM\sys\core_cmSimd.h
+..\obj\12864.o: ..\SYSTEM\sys\system_stm32f4xx.h
+..\obj\12864.o: ..\SYSTEM\delay\delay.h

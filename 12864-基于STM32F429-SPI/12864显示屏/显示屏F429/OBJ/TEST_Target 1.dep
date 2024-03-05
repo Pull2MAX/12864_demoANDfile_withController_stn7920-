@@ -1,0 +1,80 @@
+Dependencies for Project 'TEST', Target 'Target 1': (DO NOT MODIFY !)
+F (.\startup_stm32f429xx.s)(0x5714A216)(--cpu Cortex-M4.fp -g --apcs=interwork -I D:\∂¡—–\12864œ‘ æ∆¡\œ‘ æ∆¡F429\USER\RTE-I D:\program\KEIL5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0-I D:\program\KEIL5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 514" --pd "STM32F429xx SETA 1"--list ..\obj\startup_stm32f429xx.lst --xref -o ..\obj\startup_stm32f429xx.o --depend ..\obj\startup_stm32f429xx.d)
+F (.\test.c)(0x5F674B07)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\12864-I D:\∂¡—–\12864œ‘ æ∆¡\œ‘ æ∆¡F429\USER\RTE-I D:\program\KEIL5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0-I D:\program\KEIL5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F429xx -DSTM32F429xx-o ..\obj\test.o --omf_browse ..\obj\test.crf --depend ..\obj\test.d)
+I (..\SYSTEM\sys\sys.h)(0x5714A215)
+I (..\SYSTEM\sys\stm32f4xx.h)(0x5714A215)
+I (..\SYSTEM\sys\stm32f429xx.h)(0x5714A215)
+I (..\SYSTEM\sys\core_cm4.h)(0x5714A215)
+I (D:\program\KEIL5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x5714A215)
+I (..\SYSTEM\sys\cmsis_armcc.h)(0x5714A215)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x5714A215)
+I (..\SYSTEM\sys\core_cmSimd.h)(0x5714A215)
+I (..\SYSTEM\sys\system_stm32f4xx.h)(0x5714A215)
+I (..\SYSTEM\delay\delay.h)(0x5714A215)
+I (..\HARDWARE\LED\led.h)(0x5F67477D)
+I (..\SYSTEM\usart\usart.h)(0x5714A215)
+I (D:\program\KEIL5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\HARDWARE\12864\12864.h)(0x5F674968)
+F (..\SYSTEM\delay\delay.c)(0x5714A215)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\12864-I D:\∂¡—–\12864œ‘ æ∆¡\œ‘ æ∆¡F429\USER\RTE-I D:\program\KEIL5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0-I D:\program\KEIL5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F429xx -DSTM32F429xx-o ..\obj\delay.o --omf_browse ..\obj\delay.crf --depend ..\obj\delay.d)
+I (..\SYSTEM\delay\delay.h)(0x5714A215)
+I (..\SYSTEM\sys\sys.h)(0x5714A215)
+I (..\SYSTEM\sys\stm32f4xx.h)(0x5714A215)
+I (..\SYSTEM\sys\stm32f429xx.h)(0x5714A215)
+I (..\SYSTEM\sys\core_cm4.h)(0x5714A215)
+I (D:\program\KEIL5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x5714A215)
+I (..\SYSTEM\sys\cmsis_armcc.h)(0x5714A215)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x5714A215)
+I (..\SYSTEM\sys\core_cmSimd.h)(0x5714A215)
+I (..\SYSTEM\sys\system_stm32f4xx.h)(0x5714A215)
+F (..\SYSTEM\sys\sys.c)(0x5714A215)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\12864-I D:\∂¡—–\12864œ‘ æ∆¡\œ‘ æ∆¡F429\USER\RTE-I D:\program\KEIL5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0-I D:\program\KEIL5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F429xx -DSTM32F429xx-o ..\obj\sys.o --omf_browse ..\obj\sys.crf --depend ..\obj\sys.d)
+I (..\SYSTEM\sys\sys.h)(0x5714A215)
+I (..\SYSTEM\sys\stm32f4xx.h)(0x5714A215)
+I (..\SYSTEM\sys\stm32f429xx.h)(0x5714A215)
+I (..\SYSTEM\sys\core_cm4.h)(0x5714A215)
+I (D:\program\KEIL5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x5714A215)
+I (..\SYSTEM\sys\cmsis_armcc.h)(0x5714A215)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x5714A215)
+I (..\SYSTEM\sys\core_cmSimd.h)(0x5714A215)
+I (..\SYSTEM\sys\system_stm32f4xx.h)(0x5714A215)
+F (..\SYSTEM\usart\usart.c)(0x5714A215)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\12864-I D:\∂¡—–\12864œ‘ æ∆¡\œ‘ æ∆¡F429\USER\RTE-I D:\program\KEIL5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0-I D:\program\KEIL5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F429xx -DSTM32F429xx-o ..\obj\usart.o --omf_browse ..\obj\usart.crf --depend ..\obj\usart.d)
+I (..\SYSTEM\sys\sys.h)(0x5714A215)
+I (..\SYSTEM\sys\stm32f4xx.h)(0x5714A215)
+I (..\SYSTEM\sys\stm32f429xx.h)(0x5714A215)
+I (..\SYSTEM\sys\core_cm4.h)(0x5714A215)
+I (D:\program\KEIL5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x5714A215)
+I (..\SYSTEM\sys\cmsis_armcc.h)(0x5714A215)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x5714A215)
+I (..\SYSTEM\sys\core_cmSimd.h)(0x5714A215)
+I (..\SYSTEM\sys\system_stm32f4xx.h)(0x5714A215)
+I (..\SYSTEM\usart\usart.h)(0x5714A215)
+I (D:\program\KEIL5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+F (..\HARDWARE\LED\led.c)(0x5F6748D5)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\12864-I D:\∂¡—–\12864œ‘ æ∆¡\œ‘ æ∆¡F429\USER\RTE-I D:\program\KEIL5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0-I D:\program\KEIL5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F429xx -DSTM32F429xx-o ..\obj\led.o --omf_browse ..\obj\led.crf --depend ..\obj\led.d)
+I (..\HARDWARE\LED\led.h)(0x5F67477D)
+I (..\SYSTEM\sys\sys.h)(0x5714A215)
+I (..\SYSTEM\sys\stm32f4xx.h)(0x5714A215)
+I (..\SYSTEM\sys\stm32f429xx.h)(0x5714A215)
+I (..\SYSTEM\sys\core_cm4.h)(0x5714A215)
+I (D:\program\KEIL5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x5714A215)
+I (..\SYSTEM\sys\cmsis_armcc.h)(0x5714A215)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x5714A215)
+I (..\SYSTEM\sys\core_cmSimd.h)(0x5714A215)
+I (..\SYSTEM\sys\system_stm32f4xx.h)(0x5714A215)
+F (..\HARDWARE\12864\12864.c)(0x5F674F26)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\12864-I D:\∂¡—–\12864œ‘ æ∆¡\œ‘ æ∆¡F429\USER\RTE-I D:\program\KEIL5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0-I D:\program\KEIL5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F429xx -DSTM32F429xx-o ..\obj\12864.o --omf_browse ..\obj\12864.crf --depend ..\obj\12864.d)
+I (..\HARDWARE\12864\12864.h)(0x5F674968)
+I (..\SYSTEM\sys\sys.h)(0x5714A215)
+I (..\SYSTEM\sys\stm32f4xx.h)(0x5714A215)
+I (..\SYSTEM\sys\stm32f429xx.h)(0x5714A215)
+I (..\SYSTEM\sys\core_cm4.h)(0x5714A215)
+I (D:\program\KEIL5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x5714A215)
+I (..\SYSTEM\sys\cmsis_armcc.h)(0x5714A215)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x5714A215)
+I (..\SYSTEM\sys\core_cmSimd.h)(0x5714A215)
+I (..\SYSTEM\sys\system_stm32f4xx.h)(0x5714A215)
+I (..\SYSTEM\delay\delay.h)(0x5714A215)
+F (..\readme.txt)(0x576D113C)()
